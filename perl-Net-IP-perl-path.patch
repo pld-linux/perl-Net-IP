@@ -1,0 +1,8 @@
+--- Net-IP-1.0/ipcount.pl	Wed Jan  3 18:05:45 2001
++++ Net-IP-1.0-p/ipcount.pl	Sat Feb  2 23:38:14 2002
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl5_latest -w
++#!/usr/bin/perl -w
+ 
+ # Copyright (c) 2000                            RIPE NCC
+ #
