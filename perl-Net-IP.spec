@@ -10,13 +10,13 @@ License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 Patch1:		%{name}-perl-path.patch
-BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
+BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Net-iP Perl extension for the IP protocol.
+Net::IP Perl extension for the IP protocol.
 
 %description -l pl
 Net::IP - wsparcie dla protoko³u IP.
@@ -40,14 +40,12 @@ install -d $RPM_BUILD_ROOT%{_bindir}
 install ipcount $RPM_BUILD_ROOT%{_bindir}
 install iptab $RPM_BUILD_ROOT%{_bindir}
 
-gzip -9nf Changes README
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc Changes README
 %{perl_sitelib}/Net/IP.pm
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man3/*
