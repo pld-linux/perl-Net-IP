@@ -1,0 +1,18 @@
+diff -Nuard Net-IP-1.20.orig/ipcount Net-IP-1.20/ipcount
+--- Net-IP-1.20.orig/ipcount	2003-04-08 17:28:06.000000000 +0200
++++ Net-IP-1.20/ipcount	2003-12-11 18:32:35.660379520 +0100
+@@ -1,4 +1,4 @@
+-#!perl -w
++#!/usr/bin/perl -w
+ 
+ # Copyright (c) 2000                            RIPE NCC
+ #
+diff -Nuard Net-IP-1.20.orig/iptab Net-IP-1.20/iptab
+--- Net-IP-1.20.orig/iptab	2002-10-14 11:05:29.000000000 +0200
++++ Net-IP-1.20/iptab	2003-12-11 18:32:31.838960464 +0100
+@@ -1,4 +1,4 @@
+-#!perl
++#!/usr/bin/perl
+ 
+ use Net::IP;
+ use strict;
