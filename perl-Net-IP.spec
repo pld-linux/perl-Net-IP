@@ -1,6 +1,6 @@
 #
 # Conditional build:
-# _without_tests - do not perform "make test"
+%bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Net
@@ -44,7 +44,8 @@ przezroczysty operowaæ zarówno na adresach IPv4, jak i IPv6.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
-%{!?_without_tests:%{__make} test}
+
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
