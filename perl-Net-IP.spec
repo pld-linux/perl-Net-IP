@@ -38,7 +38,7 @@ przezroczysty operowaæ zarówno na adresach IPv4, jak i IPv6.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 %{!?_without_tests:%{__make} test}
 
