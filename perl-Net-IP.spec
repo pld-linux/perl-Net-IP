@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Net
-%define	pnam	IP
+%define		pdir	Net
+%define		pnam	IP
 Summary:	Net::IP - Perl extension for manipulating IPv4/IPv6 addresses
 Summary(pl):	Net::IP - rozszerzenie Perla s³u¿±ce do manipulacji adresami IPv4/IPv6
 Name:		perl-Net-IP
