@@ -9,12 +9,12 @@ Summary:	Net::IP - Perl extension for manipulating IPv4/IPv6 addresses
 Summary(pl):	Net::IP - rozszerzenie Perla s³u¿±ce do manipulacji adresami IPv4/IPv6
 Name:		perl-Net-IP
 Version:	1.16
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -38,7 +38,8 @@ przezroczysty operowaæ zarówno na adresach IPv4, jak i IPv6.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 %{!?_without_tests:%{__make} test}
 
@@ -59,6 +60,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_sitelib}/Net/IP.pm
+%{perl_vendorlib}/Net/IP.pm
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man3/*
