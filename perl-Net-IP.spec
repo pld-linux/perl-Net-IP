@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Net
 %define	pnam	IP
-%include	/usr/lib/rpm/macros.perl
 Summary:	Net-IP perl module
 Summary(pl):	Modu³ perla Net-IP
 Name:		perl-Net-IP
 Version:	1.0
-Release:	3
-
+Release:	4
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -24,7 +23,7 @@ Net-iP Perl extension for the IP protocol.
 Net-IP - wsparcie dla protoko³u IP.
 
 %prep
-%setup -q -n Net-IP-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 %patch0 -p1
 %patch1 -p1
 
