@@ -40,7 +40,7 @@ przezroczysty operowaæ zarówno na adresach IPv4, jak i IPv6.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 %{!?_without_tests:%{__make} test}
 
@@ -51,7 +51,7 @@ install -d $RPM_BUILD_ROOT%{_bindir}
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
-	
+
 install ipcount $RPM_BUILD_ROOT%{_bindir}
 install iptab $RPM_BUILD_ROOT%{_bindir}
 
