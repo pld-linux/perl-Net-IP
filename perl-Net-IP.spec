@@ -7,6 +7,8 @@ Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
+Group(es):	Desarrollo/Lenguages/Perl
+Group(fr):	Development/Langues/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Net/Net-IP-%{version}.tar.gz
 Patch0:		%{name}-doc.patch
