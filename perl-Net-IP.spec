@@ -3,17 +3,23 @@ Summary:	Net-IP perl module
 Summary(pl):	Modu³ perla Net-IP
 Name:		perl-Net-IP
 Version:	1.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Group(cs):	Vıvojové prostøedky/Programovací jazyky/Perl
+Group(da):	Udvikling/Sprog/Perl
 Group(de):	Entwicklung/Sprachen/Perl
 Group(es):	Desarrollo/Lenguajes/Perl
 Group(fr):	Development/Langues/Perl
+Group(is):	Şróunartól/Forritunarmál/Perl
+Group(it):	Sviluppo/Linguaggi/Perl
 Group(ja):	³«È¯/¸À¸ì/Perl
+Group(no):	Utvikling/Programmeringsspråk/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Group(pt):	Desenvolvimento/Linguagens/Perl
 Group(ru):	òÁÚÒÁÂÏÔËÁ/ñÚÙËÉ/Perl
+Group(sl):	Razvoj/Jeziki/Perl
+Group(sv):	Utveckling/Språk/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Net/Net-IP-%{version}.tar.gz
 Patch0:		%{name}-doc.patch
 Patch1:		%{name}-perl-path.patch
