@@ -1,9 +1,12 @@
+%define	pdir	Net
+%define	pnam	IP
 %include	/usr/lib/rpm/macros.perl
 Summary:	Net-IP perl module
 Summary(pl):	Modu³ perla Net-IP
 Name:		perl-Net-IP
 Version:	1.0
-Release:	2
+Release:	3
+
 License:	GPL
 Group:		Development/Languages/Perl
 Group(cs):	Vývojové prostøedky/Programovací jazyky/Perl
@@ -20,7 +23,7 @@ Group(pt):	Desenvolvimento/Linguagens/Perl
 Group(ru):	òÁÚÒÁÂÏÔËÁ/ñÚÙËÉ/Perl
 Group(sl):	Razvoj/Jeziki/Perl
 Group(sv):	Utveckling/Språk/Perl
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Net/Net-IP-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 Patch0:		%{name}-doc.patch
 Patch1:		%{name}-perl-path.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
