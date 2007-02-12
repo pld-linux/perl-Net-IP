@@ -6,7 +6,7 @@
 %define		pdir	Net
 %define		pnam	IP
 Summary:	Net::IP - Perl extension for manipulating IPv4/IPv6 addresses
-Summary(pl):	Net::IP - rozszerzenie Perla s³u¿±ce do manipulacji adresami IPv4/IPv6
+Summary(pl.UTF-8):   Net::IP - rozszerzenie Perla sÅ‚uÅ¼Ä…ce do manipulacji adresami IPv4/IPv6
 Name:		perl-Net-IP
 Version:	1.25
 Release:	1
@@ -30,13 +30,13 @@ ranges of addresses. There is also a procedural way of accessing most
 of the functions. Most subroutines can take either IPv4 or IPv6
 addresses transparently.
 
-%description -l pl
-Modu³ Perla Net::IP zawiera funkcje operuj±ce na adresach IPv4/IPv6.
-Modu³u tego mo¿na u¿ywaæ jako klasy umo¿liwiaj±cej u¿ytkownikowi
-tworzenie obiektów IP, którymi mog± byæ pojedyncze adresy, prefiksy,
-czy te¿ zakresy adresów. Dostêp do wiêkszo¶ci funkcji mo¿liwy jest
-równie¿ drog± proceduraln±. Wiêkszo¶æ procedur mo¿e w sposób
-przezroczysty operowaæ zarówno na adresach IPv4, jak i IPv6.
+%description -l pl.UTF-8
+ModuÅ‚ Perla Net::IP zawiera funkcje operujÄ…ce na adresach IPv4/IPv6.
+ModuÅ‚u tego moÅ¼na uÅ¼ywaÄ‡ jako klasy umoÅ¼liwiajÄ…cej uÅ¼ytkownikowi
+tworzenie obiektÃ³w IP, ktÃ³rymi mogÄ… byÄ‡ pojedyncze adresy, prefiksy,
+czy teÅ¼ zakresy adresÃ³w. DostÄ™p do wiÄ™kszoÅ›ci funkcji moÅ¼liwy jest
+rÃ³wnieÅ¼ drogÄ… proceduralnÄ…. WiÄ™kszoÅ›Ä‡ procedur moÅ¼e w sposÃ³b
+przezroczysty operowaÄ‡ zarÃ³wno na adresach IPv4, jak i IPv6.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
