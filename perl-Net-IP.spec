@@ -6,7 +6,7 @@
 %define		pdir	Net
 %define		pnam	IP
 Summary:	Net::IP - Perl extension for manipulating IPv4/IPv6 addresses
-Summary(pl.UTF-8):   Net::IP - rozszerzenie Perla służące do manipulacji adresami IPv4/IPv6
+Summary(pl.UTF-8):	Net::IP - rozszerzenie Perla służące do manipulacji adresami IPv4/IPv6
 Name:		perl-Net-IP
 Version:	1.25
 Release:	1
