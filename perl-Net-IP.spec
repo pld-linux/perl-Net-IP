@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Net
 %define		pnam	IP
 Summary:	Net::IP - Perl extension for manipulating IPv4/IPv6 addresses
