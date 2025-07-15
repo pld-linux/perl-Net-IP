@@ -39,7 +39,7 @@ przezroczysty operować zarówno na adresach IPv4, jak i IPv6.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %{__perl} Makefile.PL \
