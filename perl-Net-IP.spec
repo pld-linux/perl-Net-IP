@@ -8,7 +8,7 @@ Summary:	Net::IP - Perl extension for manipulating IPv4/IPv6 addresses
 Summary(pl.UTF-8):	Net::IP - rozszerzenie Perla służące do manipulacji adresami IPv4/IPv6
 Name:		perl-Net-IP
 Version:	1.26
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
